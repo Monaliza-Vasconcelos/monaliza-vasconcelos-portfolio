@@ -14,9 +14,6 @@ meus projetos, habilidades e minha evolução como desenvolvedora de software.
 - Cursos
 - Contato
 
-## 🌐 Acesso ao portfólio
-Em breve disponível via GitHub Pages.
-
 ## 🛠️ Status do projeto
 🚧 Em desenvolvimento
 
