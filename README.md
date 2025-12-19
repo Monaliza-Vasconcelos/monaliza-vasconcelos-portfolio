@@ -1,2 +1,23 @@
-# monaliza-vasconcelos-portfolio
-Portfólio pessoal desenvolvido com HTML e CSS para apresentar meus projetos e trajetória como desenvolvedora de software.
+# Portfólio — Monaliza Vasconcelos
+
+Este repositório contém meu portfólio profissional, desenvolvido para apresentar
+meus projetos, habilidades e minha evolução como desenvolvedora de software.
+
+## 🚀 Tecnologias utilizadas
+- HTML5
+- CSS3
+
+## 📂 Seções do site
+- Sobre mim
+- Projetos
+- Formação
+- Cursos
+- Contato
+
+## 🌐 Acesso ao portfólio
+Em breve disponível via GitHub Pages.
+
+## 🛠️ Status do projeto
+🚧 Em desenvolvimento
+
+---
