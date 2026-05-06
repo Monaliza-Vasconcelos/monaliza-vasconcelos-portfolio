@@ -511,3 +511,166 @@ footer{
   transform: translateY(-2px);
   transition: 0.2s;
 }
+
+
+
+/* 📱 TABLET */
+@media (max-width: 1024px) {
+
+  .container,
+  .container-sobre {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .home-container,
+  .imagem-perfil,
+  .sobre,
+  .tecnologias-container {
+    width: 100%;
+    margin: 0;
+  }
+
+  .home-title {
+    max-width: 100%;
+    justify-content: center;
+  }
+
+  .logo-img {
+    margin-left: 1rem;
+  }
+
+  .nav {
+    margin-right: 1rem;
+  }
+
+  .container-projects,
+  .container-section {
+    justify-content: center;
+  }
+}
+
+
+/* 📱 MOBILE */
+@media (max-width: 768px) {
+
+  /* HEADER */
+  .header-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav ul {
+    padding: 0;
+  }
+
+  .nav ul li {
+    display: block;
+    text-align: center;
+  }
+
+  /* HOME */
+  .container {
+    flex-direction: column-reverse;
+    padding: 20px;
+  }
+
+  .home-container {
+    width: 100%;
+    margin-left: 0;
+    align-items: center;
+    text-align: center;
+  }
+
+  .home-title {
+    justify-content: center;
+  }
+
+  .home-p {
+    font-size: 1rem;
+  }
+
+  .imagem-perfil {
+    width: 100%;
+  }
+
+  .imagem-perfil img {
+    max-width: 250px;
+  }
+
+  /* BOTÕES */
+  .home-button {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .button-home-projects,
+  .button-home-contact {
+    width: 100%;
+  }
+
+  /* SOBRE */
+  .container-sobre {
+    flex-direction: column;
+    padding-top: 2rem;
+  }
+
+  .sobre {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .tecnologias-container {
+    width: 100%;
+    height: auto;
+  }
+
+  /* PROJETOS */
+  .container-projects {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sessao-dois-projects {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .container-section {
+    justify-content: center;
+  }
+
+  .container-section-card {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  /* FOOTER */
+  footer {
+    text-align: center;
+  }
+}
+
+
+/* 📱 MOBILE PEQUENO */
+@media (max-width: 480px) {
+
+  .home-container h1 {
+    font-size: 1.5rem;
+  }
+
+  .home-p {
+    font-size: 0.9rem;
+  }
+
+  .logo-img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .card img {
+    width: 40px;
+  }
+
+}
