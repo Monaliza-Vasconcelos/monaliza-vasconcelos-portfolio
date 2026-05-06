@@ -5,6 +5,7 @@ import "./App.css";
 import Projects from "./pages/Projects";
 import Sobre from "./pages/Sobre";
 import Home from "./pages/Home";
+import NotFound from "./pages/NotFound";
 
 
 function App() {
@@ -16,9 +17,12 @@ function App() {
           <Route path="sobre" element={<Sobre />} />
           <Route path="projetos" element={<Projects />} />
           <Route path="contato" element={<Contacts />} />
+          
         </Route>
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
+    
   );
 }
 

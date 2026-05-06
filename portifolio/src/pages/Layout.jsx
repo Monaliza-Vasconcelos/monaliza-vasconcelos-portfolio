@@ -9,6 +9,7 @@ function Layout() {
 
       <main className="content">
         <Outlet /> 
+        
       </main>
 
       <Footer />

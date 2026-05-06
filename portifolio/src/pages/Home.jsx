@@ -1,4 +1,5 @@
 import perfil from '../assets/perfil.png';
+import { Link } from 'react-router-dom'; 
 
 function Home() {
     return (
@@ -15,7 +16,7 @@ function Home() {
                     <p className="home-p">Desenvolvedora em formação com foco em back-end Python e Django.
                         Construindo APIs e projetos práticos, aberta a oportunidades full-stack.</p>
                     <div className="home-button">
-                        <button className="button-home-projects">Ver projetos <i className="fas fa-arrow-right"></i></button>
+                        <button className="button-home-projects"><Link to={"/projetos"}>Ver projetos <i className="fas fa-arrow-right"></i></Link></button>
                         <button className="button-home-contact">Entrar em contato <i className="fas fa-envelope"></i></button>
                     </div>
                     <div className="home-icons">
