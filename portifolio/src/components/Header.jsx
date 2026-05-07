@@ -28,7 +28,7 @@ function Header() {
             </div>
 
             <nav className="nav">
-                <ul>
+                <ul className="ul-header">
                     <li><Link to="/">Início</Link></li>
                     <li><Link to="/sobre">Sobre</Link></li>
                     <li><Link to="/projetos">Projetos</Link></li>
