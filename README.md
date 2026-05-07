@@ -1,10 +1,10 @@
-👩‍💻 #Portfólio - Monaliza Vasconcelos
+# 👩‍💻 Portfólio - Monaliza Vasconcelos
 
 Bem-vindo ao meu portfólio!
 Este projeto foi desenvolvido com foco em apresentar minhas habilidades como desenvolvedora Full Stack, meus projetos, experiências e tecnologias que venho estudando.
 
 ---
-🚀 ##Tecnologias utilizadas
+## 🚀 Tecnologias utilizadas
 React
 Vite
 React Router DOM
@@ -13,7 +13,7 @@ JavaScript
 HTML5
 
 ---
-✨ ##Funcionalidades
+## ✨ Funcionalidades
 Navegação entre páginas
 Layout responsivo
 Página inicial moderna
@@ -22,11 +22,11 @@ Projetos desenvolvidos
 Contato
 
 ---
-📸 ##Preview
+## 📸 Preview
 ![Preview do Projeto](./src/assets/preview.png)
 
 ---
-📂 ##Estrutura do projeto
+## 📂 Estrutura do projeto
 ```bash
 src/
 ├── assets/
@@ -38,7 +38,7 @@ src/
 ```
 
 ---
-⚙️ ##Como executar o projeto
+## ⚙️ Como executar o projeto
 Clone o repositório:
 ```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
