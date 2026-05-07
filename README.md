@@ -23,7 +23,7 @@ Contato
 
 ---
 ## 📸 Preview
-![Preview do Projeto](./src/assets/preview.png)
+![Preview do Projeto](./preview.png)
 
 ---
 ## 📂 Estrutura do projeto
