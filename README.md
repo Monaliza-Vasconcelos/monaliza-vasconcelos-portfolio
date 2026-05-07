@@ -57,10 +57,10 @@ npm run dev
 ```
 
 ---
-🌐 ##Deploy
+## 🌐 Deploy
 
 Projeto hospedado na Vercel.
 
-[🌐 Acessar Portfólio](https://monaliza-vasconcelos-portfolio-dw1w.vercel.app/)
+[Acessar Portfólio](https://monaliza-vasconcelos-portfolio-dw1w.vercel.app/)
 
 
