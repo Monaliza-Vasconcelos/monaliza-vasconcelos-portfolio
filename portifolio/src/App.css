@@ -397,6 +397,7 @@ body {
 
   color: var(--text-primary);
   padding: 20px;
+  box-sizing: border-box;
 }
 
 .sessao-dois-projects {
@@ -433,7 +434,6 @@ body {
 
   color: var(--text-primary);
   padding: 20px;
-
 
 }
 
@@ -798,9 +798,35 @@ footer {
   }
 
   .container-projects{
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 0 20px;
+    margin: 0;
     box-sizing: border-box;
   }
 
+  .container-section{
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+
+  .sessao-dois-projects{
+    gap: 0;
+  }
   
+  .sessao-um-projects{
+    width: 80%;
+
+  }
+
+  .sessao-um-projects p{
+    margin: 0;
+  }
+
+  .sessao-um-projects h2{
+    margin: 0;
+  }
 
 }
