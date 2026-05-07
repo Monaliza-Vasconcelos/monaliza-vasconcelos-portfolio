@@ -9,7 +9,6 @@ function Home() {
                     <p className="home">Olá, eu sou</p>
                     <div className="home-title">
                         <h1>Monaliza Vasconcelos</h1>
-                        <div className="home-divider"></div>
                     </div>
                     <h2 className="home">Desenvolvedora Back-end</h2>
 

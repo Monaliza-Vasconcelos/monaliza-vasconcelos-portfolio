@@ -51,7 +51,22 @@
 }
 
 
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
 
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+}
 
 body {
   margin: 0;
@@ -173,16 +188,10 @@ body {
 
 .home-title {
   display: flex;
-  max-width: 50%;
+  max-width: 100%;
   gap: 10px;
   align-items: center;
   justify-items: center;
-}
-
-.home-divider {
-  width: 4px;
-  height: 40px;
-  margin: 20px 0;
 }
 
 .home-p {
@@ -525,13 +534,71 @@ footer {
   transition: 0.2s;
 }
 
+/* 📱 TELA */
+@media (max-width: 1200px) {
+   .header-container {
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
 
+  }
+
+  .nav {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+  }
+
+  .ul-header {
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    gap: 15px;
+  }
+
+  .nav .ul-header li {
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav .ul-header li a {
+    padding: 0;
+  }
+
+  .logo {
+    justify-content: start;
+    width: 0px;
+  }
+
+  .lua-img {
+    width: 40px;
+    border-radius: 50%;
+    min-height: 30px;
+
+  }
+  .container{
+    width: 100%;
+  }
+
+  .home-container{
+    margin: 0;
+    width: 100%;
+    padding-left: 5rem;
+  }
+
+}
 
 /* 📱 TABLET */
 @media (max-width: 768px) {
   .header-container {
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
+    align-items: start;
 
   }
 
@@ -550,7 +617,7 @@ footer {
   }
 
   .logo {
-    width: 100%;
+    width: 10%;
     display: flex;
     justify-content: center;
   }
@@ -570,14 +637,14 @@ footer {
     flex-direction: row;
     width: 100%;
 
-
   }
 
   .nav {
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
+    justify-content: end;
+    align-items: center;
+    gap: 15px;
     width: 100%;
   }
 
@@ -600,19 +667,53 @@ footer {
   }
 
   .logo-img {
-    width: 50px;
-    height: 30px;
+    min-width: 30px;
+    min-height: 30px;
   }
 
   .logo {
     justify-content: start;
-    width: 0px;
+    min-width: 30%;
   }
 
   .lua-img {
-    width: 20px;
+    min-width:20px;
     border-radius: 50%;
-    height: 15px;
+    height: 20px;
 
+  }
+
+  .container{
+    flex-direction: column-reverse;
+    
+  }
+
+   .imagem-perfil{
+      height: 260px;
+   }
+
+  .imagem-perfil img{
+    min-width: 200px;
+    height: 300px;
+    margin-top: 100px;
+  }
+
+  .home-container{
+    padding: 0;
+    align-items: center;
+  }
+
+  .home-title{
+    width: 100%;
+    display: block;
+  }
+
+  .home-p{
+    text-align: center;
+    padding: 0 30px;
+  }
+
+  .home-icons{
+    margin-bottom: 20px;
   }
 }
