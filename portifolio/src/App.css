@@ -641,7 +641,7 @@ footer {
 
   .nav {
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: end;
     align-items: center;
     gap: 15px;
@@ -711,6 +711,7 @@ footer {
   .home-p{
     text-align: center;
     padding: 0 30px;
+    text-align: justify;
   }
 
   .home-icons{
