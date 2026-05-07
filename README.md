@@ -61,6 +61,6 @@ npm run dev
 
 Projeto hospedado na Vercel.
 
-<a href="https://monaliza-vasconcelos-portfolio-dw1w.vercel.app/" target="_blank">Acessar portifólio</a>
+[🌐 Acessar Portfólio](https://monaliza-vasconcelos-portfolio-dw1w.vercel.app/)
 
 
