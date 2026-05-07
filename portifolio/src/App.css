@@ -646,7 +646,7 @@ footer {
     align-items: center;
     gap: 15px;
     width: 100%;
-    padding-right: 20px;
+    padding-right: 60px;
   }
 
   .ul-header {
@@ -674,7 +674,7 @@ footer {
 
   .logo {
     justify-content: start;
-    min-width: 30%;
+    min-width: 20%;
   }
 
   .lua-img {
