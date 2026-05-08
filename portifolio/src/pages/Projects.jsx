@@ -29,7 +29,7 @@ function Projects() {
             <div className="container-principal-projects">
                 <div className="container-projects">
                     <section className="sessao-um-projects">
-                        <p>Projetos</p>
+                        <h2 className="background_titulo tamanho_letras">Projetos</h2>
                         <h2>Meus projetos</h2>
                     </section>
                     <section className="sessao-dois-projects">

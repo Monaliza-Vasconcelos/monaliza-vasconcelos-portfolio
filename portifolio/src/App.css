@@ -4,6 +4,19 @@
   --bg-secondary: #0b1120;
   --bg-card: #0f172a;
 
+  /* FORM CARD */
+  --form-bg: linear-gradient(
+    145deg,
+    #0f172a,
+    #1e293b
+  );
+
+  --form-border: rgba(255,255,255,0.05);
+
+  --form-shadow:
+    0 10px 30px rgba(0,0,0,0.35),
+    0 0 25px rgba(59,130,246,0.10);
+
 
 
   /* 🔷 Azul */
@@ -48,6 +61,16 @@
 
   --blue-500: #2563eb;
   --blue-400: #3b82f6;
+   --form-bg: linear-gradient(
+    145deg,
+    #ffffff,
+    #e2e8f0
+  );
+
+  --form-border: rgba(0,0,0,0.05);
+
+  --form-shadow:
+    0 10px 30px rgba(0,0,0,0.08);
 }
 
 
@@ -73,6 +96,16 @@ body {
   padding: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: var(--bg-card);
+}
+
+.background_titulo{
+  background: linear-gradient(to right, var(--purple-600), var(--blue-600));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.tamanho_letras{
+  font-size: 1.5rem;
 }
 
 .header-container {
@@ -175,9 +208,6 @@ body {
   flex-direction: column;
   align-items: start;
   justify-content: left;
-  background: linear-gradient(to right, var(--purple-600), var(--blue-600));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .home-container h1 {
@@ -293,9 +323,6 @@ body {
 
 .sobre h2 {
   font-size: 1.2rem;
-  background: linear-gradient(to right, var(--purple-600), var(--blue-600));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   max-width: 600px;
 }
 
@@ -540,6 +567,157 @@ footer {
   color: var(--text-secondary);
   font-size: 0.9rem;
 }
+
+
+.contacts-container{
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 2rem;
+
+  box-sizing: border-box;
+
+  color: var(--text-primary);
+}
+
+.contacts-description{
+  color: var(--text-muted);
+}
+
+.contacts-form{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+
+.contacts-input-group{
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.contacts-input{
+  flex: 1;
+  min-width: 250px;
+
+  padding: 12px 16px;
+
+  border-radius: 8px;
+  border: 1px solid transparent;
+
+  background-color: var(--hover-bg);
+  color: var(--text-primary);
+
+  outline: none;
+  transition: 0.3s ease;
+  box-sizing: border-box;
+}
+
+/* EFEITO AO CLICAR */
+.contacts-input:focus{
+  border-color: var(--blue-500);
+  box-shadow: 0 0 10px rgba(59, 131, 246, 0.151);
+}
+
+.contacts-subtitle{
+  font-size: 1.6rem;
+}
+
+.contacts-icon{
+  padding-right: 10px;
+}
+
+.contacts-content{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  width: 100%;
+  max-width: 700px;
+
+  padding: 2rem;
+
+  border-radius: 20px;
+
+  background: var(--form-bg);
+
+  border: 1px solid var(--form-border);
+
+  box-shadow: var(--form-shadow);
+
+  backdrop-filter: blur(10px);
+}
+
+.contacts-message{
+  width: 100%;
+  min-height: 140px;
+
+  padding: 12px 16px;
+
+  border-radius: 8px;
+  border: 1px solid transparent;
+
+  background-color: var(--hover-bg);
+  color: var(--text-primary);
+
+  resize: vertical;
+  outline: none;
+
+  font-family: inherit;
+  box-sizing: border-box;
+
+  transition: 0.3s ease;
+}
+
+.contacts-message:focus{
+  border-color: var(--blue-500);
+  box-shadow: 0 0 10px rgba(59,130,246,0.3);
+}
+
+
+.contacts-message:focus{
+  border-color: var(--blue-500);
+  box-shadow: 0 0 10px rgba(59,130,246,0.3);
+}
+
+.contacts-button{
+  padding: 12px 24px;
+
+  border: none;
+  border-radius: 8px;
+
+  background: var(--blue-500);
+  color: white;
+
+  font-size: 1rem;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.3s ease;
+
+  width: fit-content;
+}
+
+/* Hover */
+.contacts-button:hover{
+  background: var(--blue-600);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.3);
+}
+
+/* Clique */
+.contacts-button:active{
+  transform: scale(0.98);
+}
+
+
 
 /* 📱 TELA */
 @media (max-width: 1200px) {
@@ -828,5 +1006,69 @@ footer {
   .sessao-um-projects h2{
     margin: 0;
   }
+  
+  .contacts-container{
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 2rem;
+
+    padding: 1.5rem;
+
+    box-sizing: border-box;
+  }
+
+  /* TEXOS */
+  .contacts-info{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+  }
+
+  .contacts-title,
+  .contacts-subtitle,
+  .contacts-description{
+    text-align: center;
+  }
+
+  /* CARD */
+  .contacts-content{
+    width: 100%;
+    max-width: 95%;
+
+    padding: 1.5rem;
+
+    border-radius: 16px;
+  }
+
+  /* FORM */
+  .contacts-form{
+    width: 100%;
+  }
+
+  .contacts-input-group{
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .contacts-input{
+    width: 100%;
+    min-width: 100%;
+  }
+
+  .contacts-message{
+    width: 100%;
+  }
+
+  .contacts-button{
+    width: 100%;
+  }
+
 
 }

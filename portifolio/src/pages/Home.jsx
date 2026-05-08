@@ -6,11 +6,11 @@ function Home() {
         <>
             <div className="container">
                 <div className="home-container">
-                    <p className="home">Olá, eu sou</p>
+                    <p className="home background_titulo">Olá, eu sou</p>
                     <div className="home-title">
                         <h1>Monaliza Vasconcelos</h1>
                     </div>
-                    <h2 className="home">Desenvolvedora Back-end</h2>
+                    <h2 className="home background_titulo">Desenvolvedora Back-end</h2>
 
                     <p className="home-p">Desenvolvedora em formação com foco em back-end Python e Django.
                         Construindo APIs e projetos práticos, aberta a oportunidades full-stack.</p>

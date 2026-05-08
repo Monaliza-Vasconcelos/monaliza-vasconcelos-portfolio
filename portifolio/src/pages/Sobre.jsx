@@ -20,7 +20,7 @@ function Sobre() {
         <div className="container-sobre">
 
             <section className="sobre">
-                <h2>Sobre mim</h2>
+                <h2 className="tamanho_letras background_titulo" >Sobre mim</h2>
                 <h3>Quem sou eu?</h3>
 
                 <p>
