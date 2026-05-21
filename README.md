@@ -46,6 +46,7 @@ git clone https://github.com/Monaliza-Vasconcelos/monaliza-vasconcelos-portfolio
 Acesse a pasta:
 ```bash
 cd monaliza-vasconcelos-portifolio
+cd portifolio
 ```
 Instale as dependências:
 ```bash
